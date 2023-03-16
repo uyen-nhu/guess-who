@@ -21,6 +21,11 @@ img {
 }
 
 .mystery-card {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mystery-person {
     padding: 10px;
     background-color: white;
     border-radius: 100%;
@@ -37,6 +42,14 @@ img {
     background-color: white;
     padding: 10px;
     border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+    transition: padding 0.5s;
+}
+.card:hover {
+    padding: 4px;
 }
 
 span {
@@ -46,4 +59,8 @@ span {
 .instructions {
     border: 4px solid white;
     padding: 20px;
+}
+
+h2 {
+    text-align: center;
 }
