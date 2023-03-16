@@ -2,6 +2,11 @@ body {
     background-color: #f0efec;
 }
 
+.wrap {
+    width: 900px;
+    margin: 40px auto;
+}
+
 .header {
     display: grid;
     grid-template-columns: 160px 160px;
